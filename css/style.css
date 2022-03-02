@@ -1,0 +1,143 @@
+html {
+  font-family: Helvitica, sans-serif;
+  font-size: 22px;
+}
+
+body, header {
+  background-color: black;
+  opacity: 0.5; /* Reduced from stated Spec value of 0.9 to mirror appearance of Spec sheet */
+  color: seashell;
+  text-align: center;
+}
+
+header {
+  position: fixed;
+  z-index: 10;
+  border-bottom: 1px solid seashell;
+  width: 100%;
+  opacity: 0.9;
+  color: seashell;
+  text-align: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  height: 69px;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.logo {
+  flex: 1;
+  object-position: left;
+}
+
+nav img {
+  height: 50px;
+  object-fit: contain;
+}
+
+.nav-links {
+  display: flex;
+  text-decoration: underline;
+}
+
+nav li {
+  padding: 0 15px;
+}
+
+/* Main Content */
+.main-container {
+  position: relative;
+  top: 70px; /* To offset for fixed header. */
+  padding: 0 3%;
+  display: flex;
+  flex-direction: column;
+}
+
+.section-heading {
+  background-color: black;
+  width: 100%;
+}
+
+/* Mission Section */
+#mission-container {
+  width: 1200px;
+  height: 700px;
+  margin: 0 auto;
+  background-image: url('../images/img-mission-background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+
+/* Monthly Section */
+#monthly-container {
+  width: 1000px;
+  margin: 60px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.monthly-items {
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  row-gap: 15px;
+  column-gap: 30px;
+}
+
+.item img {
+  width: 300px;
+  height: 200px;
+}
+
+h2, h4 {
+  padding: 10px;
+}
+
+/* Locations Section */
+#location-container {
+  height: 560px; /* Increased from stated Spec value of 500px to mirror appearance of Spec sheet */
+  background-image: url(../images/img-locations-background.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  object-position: top;
+}
+
+.location-heading {
+  margin: 60px auto 10px;
+}
+
+.location-info {
+  display: flex;
+  justify-content: center;
+  column-gap: 40px;
+}
+
+.location {
+  background-color: black;
+  opacity: 1;
+  width: 300px;
+  height: 275px; /* Dimension not specified but visually apparent that not a perfect square */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+address {
+  height: 200px;
+}
+
+/* Footer Section */
+footer {
+  text-align: left;
+  position: relative;
+  left: -20px;
+  padding-bottom: 30px;
+}

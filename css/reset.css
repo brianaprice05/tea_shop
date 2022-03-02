@@ -1,0 +1,14 @@
+html, body, div, h1, h2, h3, h4, h5, h6, header, img, li, nav, ol, p, ul {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  vertical-align: baseline;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+address {
+  font-style: normal;
+}
