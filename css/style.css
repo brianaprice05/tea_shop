@@ -5,7 +5,7 @@ html {
 
 body, header {
   background-color: black;
-  opacity: 0.5; /* Reduced from stated Spec value of 0.9 to mirror appearance of Spec sheet */
+  opacity: 0.7; /* Reduced from stated Spec value of 0.9 to mirror appearance of Spec sheet */
   color: seashell;
   text-align: center;
 }
@@ -15,7 +15,7 @@ header {
   z-index: 10;
   border-bottom: 1px solid seashell;
   width: 100%;
-  opacity: 0.9;
+  opacity: 1.4;
   color: seashell;
   text-align: center;
 }
